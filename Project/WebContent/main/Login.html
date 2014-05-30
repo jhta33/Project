@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Akinator#</title>
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+<script src="../script/jquery-2.1.1.min.js"></script>
+<script src="../script/bootstrap.js"></script>
+<style>
+	body{margin-top:100px}
+	
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-fixed-top"><!-- 상단 메뉴바 속성 지정, 상단메뉴바 고정 -->
+	
+	<div class="navbar-inner">	
+		<a href="AkinatorMain.html" class="brand" style="margin-left: 1000">Akinator</a><!-- 상단 맨 오른쪽에 오는 홈 -->					
+			<form class="navbar-form pull-left" >			
+				<input type="text" name="txtSearch" value="" placeholder="검색어를 입력하세요!" class="search-query"/>			
+				<input type="submit" name="search" value="검색" class="btn btn-info"></input>			
+			</form>		
+		
+		<!-- 상단 메뉴바1  -->
+		<div class="navbar-inner" id="sidang">	
+			<form class="navbar-form pull-right">
+				<ul  class="nav">
+					<li class="divider-vertical"></li>
+					<li><a href="#">￦상품등록</a></li>
+					<input type="text"name="aa">req.getpra("aa")
+					<li class="divider-vertical"></li> <!-- 구분선 -->
+					<li><a href="#">알림</a></li>
+					<li class="divider-vertical"></li>
+					<li><a href="#">로그인</a></li>
+					<li class="divider-vertical"></li>
+					<li><a href="#">회원가입</a></li>
+					<li class="divider-vertical"></li>						
+				</ul>		
+			</form>
+		</div>
+	</div>
+
+
+	<div class="navbar-inner">	
+		<form class="navbar-form pull" style="margin-left:450px">
+			<ul class="nav nav-list">				
+			  	<li class="dropdown">
+         		<a href="#" class="dropdown-toggle" data-toggle="dropdown">홈</a>
+         			<ul class="dropdown-menu">
+            		<li><a href="http://www.naver.com">인기상품<i class="icon-heart"></i></a></li>
+            		<li class="divider"></li>  
+           			<li><a href="http://www.daum.net">최신상품</a></li>              			       
+         			</ul>
+      			</li>
+      					<li class="divider-vertical"></li><!-- 구분선 -->
+					
+					<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">카테고리</a>
+					
+							<ul class="dropdown">
+								<table class="table table-bordered">	
+	
+	<!-- 첫번째 줄 카테고리 -->
+	<div class="span20">
+	<thead>
+		<tr>
+			<th>컴퓨터 디지털 가전</th><th>패션 잡화 뷰티</th><th>스포츠 차량 게임</th><th>도서 취미 티켓</th>			
+		</tr>
+	</thead>	
+		
+	<tbody>
+		<tr><td><a href="#">모바일</a></td><td><a href="#">여성의류</a></td><td><a href="#">스포츠</a></td><td><a href="#">도서</a></td></tr>
+		<tr><td><a href="#">컴퓨터</a></td><td><a href="#">여성잡화</a></td><td><a href="#">차량</a></td><td><a href="#">취미</a></td></tr>
+		<tr><td><a href="#">카메라</a></td><td><a href="#">남성의류</a></td><td><a href="#">게임</a></td><td><a href="#">티켓</a></td></tr>
+		<tr><td><a href="#">음향,음악</a></td><td><a href="#">남성잡화</a></td><td><a href="#"></a></td><td><a href="#"></a></td></tr>
+		<tr><td><a href="#">영상</a></td><td><a href="#">뷰티,화장품</a></td><td><a href="#"></a></td><td><a href="#"></a></td></tr>
+	</tbody>
+	
+	<!-- 두번째 줄 카테고리 -->
+	<thead>
+		<tr>
+			<th>생활,가구</th><th>식품 유아 아동</th><th>예술 수제 기타</th><th>나눔 커뮤니티</th>			
+		</tr>
+	</thead>	
+		
+	<tbody>
+		<tr><td><a href="#">가전제품</a></td><td><a href="#">식품</a></td><td><a href="#">예술, 미술</a></td><td><a href="#">번개나눔</a></td></tr>
+		<tr><td><a href="#">생활용품</a></td><td><a href="#">유아,아동</a></td><td><a href="#">수제</a></td><td><a href="#">커뮤니티</a></td></tr>
+		<tr><td><a href="#">가구</a></td><td><a href="#"></a></td><td><a href="#"></a></td><td><a href="#"></a></td></tr>
+	</tbody>
+			
+</div>
+</table>
+							</ul>
+					</li>
+						<li class="divider-vertical"></li>
+				<li class="dropdown">
+         		<a href="#" class="dropdown-toggle" data-toggle="dropdown">상점</a>
+         			<ul class="dropdown-menu">
+            		<li><a href="http://www.naver.com">인기상점<i class="icon-heart"></i></a></li>
+            		<li><a href="http://www.daum.net"></a></li>  
+            		<li class="divider"></li>        
+         			</ul>
+      			</li>
+					<li class="divider-vertical"></li>
+					<li><a href="#">모바일</a></li>
+					<li class="divider-vertical"></li>
+					<li><a href="#">커뮤니티</a></li>	
+			</ul>
+		</form>
+	</div>
+</nav>	
+
+<!-- 회원가입 -->
+<form class="form-horizontal">
+	<div class= "control-group">
+		<label class="control-label" ></label>
+        	<div class= "controls">
+            	<input type= "text" name ="email" value="" placeholder="폰번호  " class="input-medium"/>
+             </div>
+     </div>
+    </form>
+ <div style="position:absolute; left: 60px; top: 100px;">
+ 	<div>
+	    <div class= "control-group">
+     	   <label class= "control-label"></label>
+        	   <div class= "controls">
+             	  <input type= "text" name ="pwd" value="" placeholder="패스워드" class="input-medium span2">
+             	  <span class="add-on"><a href="" class="icon-search" title="비밀번호를 잊어 버리셨나요?" 
+             	  	data-toggle="tooltip" id="theTooltip" data-placement="right" data-animation="false"></a></span>
+               </div>
+		</div>
+	</div>
+ 		<div class= "controls">
+        	<label class= "checkbox">            
+            <a class="btn btn-info btn-large">로그인</a>                                  
+        </div>		
+	</div>
+	
+	
+
+
+
+<!-- 꼬릿말 -->
+<nav class="navbar navbar-fixed-bottom">
+<div class="navbar-inner">
+    <div id="foot_pop" style="display: none; color:#555555; position:fixed; width: 162px; height: 87px; padding: 10px; font-size: 12px; z-index: 5001; bottom:33px; background: url(/quicket/images/popbg.png)">
+        <div style="font-size:15px">메일 : akinator@co.kr</div>
+        <div style="font-size:12px">전화 : 02.123.1234</div>
+        <div style="font-size:11px; color:#E0624D; margin-top: 3px">메일로 연락주시면, 보다 빠른 답변을 받으실 수 있습니다.</div>
+    </div>
+    <div id="footer" style="font-size: 0.85em; margin: 0 auto;">
+
+        <div style="padding-top: 18px;">
+            <span style="margin-left: 5px;"><img style="margin-top: -15px;" src=""/></span>
+            <span style="margin-left: 5px;">Akinator#  </span>
+            <span style="margin-left: 5px;">사업자등록: 369-3699-369</span>
+            <span style="margin-left: 5px;">서울시 종로구 봉익동 10-1 디아망4층</span>
+            <span style="color: #888; font-size: 1.1em; text-decoration: none; margin-left: 15px;">
+                <a href="javascript:;" id="aaa" onclick="javascript: $('#foot_pop').css('left',this.offsetLeft - 67); $('#foot_pop').toggle(); " target="_blank">고객센터</a>
+            </span>
+            <span style="color: #888; font-size: 1.1em; text-decoration: none; margin-left: 3px;">|</span>
+            <span style="color: #888; font-size: 1.1em; text-decoration: none; margin-left: 3px;"><a href="http://bunjang.co.kr/m/terms/" target="_blank">이용약관/개인정보취급방침</a></span>
+            <span style="color: #888; font-size: 1.1em; text-decoration: none; margin-left: 3px;">|</span>
+            <span style="color: #888; font-size: 1.1em; text-decoration: none; margin-left: 3px;"><a href="/marketing" target="_blank">광고센터</a></span>
+        </div>
+    </div>
+    </div>
+</nav>
+</body>
+</html>
